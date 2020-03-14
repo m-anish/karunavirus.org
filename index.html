@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Karuna-virus!</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <form class="form-inline" action="/action_page.php">
+    <div class="form-group">
+      Hi. My name is
+      <input type="text" class="form-control" id="text" placeholder="name (optional)" name="text">
+    </div>.
+    I am residing at ________ (location). I am 
+    <div class="form-group">
+      <select class="form-control" id="state">
+        <option>in self-quarantine</option>
+        <option>in self-isolation</option>
+        <option>unable to go out</option>
+      </select>
+    </div>
+    and  
+    <div class="form-group">
+      <select class="form-control" id="status">
+        <option>need</option>
+        <option>would like</option>
+        <option>would appreciate</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <select class="form-control" id="requirement-class">
+        <option>medicine</option>
+        <option>food</option>
+        <option>supplies</option>
+      </select>
+    </div>
+    . I am reachable by 
+    <div class="form-group">
+      <select class="form-control" id="contact-class">
+        <option>telephone</option>
+        <option>sms</option>
+        <option>whatsapp</option>
+        <option>telegram</option>
+      </select>
+    </div>
+     at 
+    <input type="number" class="form-control" id="contact" placeholder="contact number" min="6000000000" max="9999999999">
+    . Below are are my requirements. I need them 
+     <div class="form-group">
+      <select class="form-control" id="priority">
+        <option>urgently</option>
+        <option>soon</option>
+        <option>anytime that's possible</option>
+      </select>
+    </div>
+    .
+    <div class="form-group">
+      <label for="requirement">Requirements:</label>
+      <textarea class="form-control" rows="5" id="requirement"></textarea>
+    </div>
+    <div class="form-group">
+      <button type="submit" class="btn btn-default">Submit</button>
+    </div>
+  </form>
+  Love and kindness!
+</div>
+
+</body>
+</html>
+
